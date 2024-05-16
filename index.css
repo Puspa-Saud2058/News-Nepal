@@ -12,3 +12,8 @@
     font-size: 18px;
     color:#0010b9;
 }
+.line{
+    border-width: 4px 0; 
+    color: #cf2e2e !important;
+  
+}
