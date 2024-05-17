@@ -55,3 +55,20 @@ ul{
     margin-left: 700px;
   
 }
+.styled-hr {
+    position: relative; /* Position relative to place the pseudo-element correctly */
+    border: 0;
+    height: 1px;
+    background-color: black; /* Style of the horizontal line */
+    margin-top: 20px; /* Space between the text and the line */
+}
+
+.styled-hr::before {
+    content: "Hello"; /* Text to be added */
+    display: inline-block; /* Make it inline so it appears next to the line */
+    color: black; /* Text color */
+    font-size: 16px; /* Text size */
+    margin-right: 10px; /* Space between the text and the line */
+    vertical-align: middle; /* Align the text with the middle of the line */
+}
+
