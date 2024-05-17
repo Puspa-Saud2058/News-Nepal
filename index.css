@@ -28,3 +28,30 @@
     font-weight: 550;
     color:#4e4e4e;
 }
+.abc-sologan1{
+    color: #0010b9;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 500px;
+}
+.uk-navbar-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+ul{
+    box-sizing: border-box;
+}
+.icon{
+    margin-left: 600px;
+    margin-top: 12px;
+   
+}
+.line1{
+    border-width: 1px 0; 
+    color: #cf2e2e !important;
+    width: 51%;
+    margin-left: 700px;
+  
+}
