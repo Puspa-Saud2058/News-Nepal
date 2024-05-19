@@ -48,26 +48,33 @@ ul{
     margin-top: 12px;
    
 }
-.line1{
+.lines{
     border-width: 1px 0; 
     color: #cf2e2e !important;
     width: 51%;
     margin-left: 700px;
   
 }
-.styled-hr {
-    position: relative; /* Position relative to place the pseudo-element correctly */
-    border: 0;
-    height: 1px;
-    background-color: black; /* Style of the horizontal line */
-    margin-top: 20px; /* Space between the text and the line */
-}
+.hr-lines {
+    display: flex;
+    align-items: center;
+    max-width: 2080px;
+    
+  }
 
+  .hr-lines h2 {
+    margin: 0;
+    padding-right: 10px; /* Adjust spacing between text and line */
+    white-space: nowrap;
+  }
 
-<a href="#">
-<img src="https://www.abcnepal.tv/wp-content/uploads/2024/05/rekha-final--400x220.jpg" alt="">
-</a>       
-<a href="#" class="text-decoration-none text-dark">जलवायु परिवर्तनको सङ्कट समाधानमा सञ्चारमाध्यमको भूमिका महत्वपूर्ण : सञ्चारमन्त्री शर्मा</a>
+  .hr-lines:after {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    background: red;
+    margin-left: 10px; /* Adjust spacing between text and line */
+  }
 
-
+  
 
