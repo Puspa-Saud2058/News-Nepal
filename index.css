@@ -63,12 +63,11 @@ ul{
     margin-top: 20px; /* Space between the text and the line */
 }
 
-.styled-hr::before {
-    content: "Hello"; /* Text to be added */
-    display: inline-block; /* Make it inline so it appears next to the line */
-    color: black; /* Text color */
-    font-size: 16px; /* Text size */
-    margin-right: 10px; /* Space between the text and the line */
-    vertical-align: middle; /* Align the text with the middle of the line */
-}
+
+<a href="#">
+<img src="https://www.abcnepal.tv/wp-content/uploads/2024/05/rekha-final--400x220.jpg" alt="">
+</a>       
+<a href="#" class="text-decoration-none text-dark">जलवायु परिवर्तनको सङ्कट समाधानमा सञ्चारमाध्यमको भूमिका महत्वपूर्ण : सञ्चारमन्त्री शर्मा</a>
+
+
 
